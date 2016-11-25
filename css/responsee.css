@@ -551,3 +551,23 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   margin:0 auto;
   display:block;
 }
+
+.responsive-div {
+    height:500px;
+}
+
+.responsive-map {
+        width:750px;
+    }
+
+@media screen and (min-width: 600px) {
+    .responsive-div {
+        height:350px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .responsive-map {
+        width:100%;
+    }
+}

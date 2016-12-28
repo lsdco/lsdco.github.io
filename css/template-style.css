@@ -687,7 +687,7 @@ aside.aside-left {
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%; 
+  top: 72%; 
   transform: translateY(-50%);
   -o-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -2061,4 +2061,11 @@ video {
   .carousel-3-blocks {
     padding: 0;
   }
-}    
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    p {
+        font-size: 0.73rem;
+        line-height: 1.5rem;
+    }
+}

@@ -2063,9 +2063,19 @@ video {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 850px) {
-    p {
-        font-size: 0.73rem;
-        line-height: 1.5rem;
+@media screen and (min-width: 768px) {
+  .contact-boxes {
+    height: 213px;
+  }
+}
+
+
+.customInnerBox{
+  height: 343px;
+}
+@media screen and (min-width: 768px) and (max-width: 1193px) {
+    .customBox {
+        width: 50%;
+
     }
 }

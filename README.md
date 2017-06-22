@@ -1,2 +1,2 @@
-# ronak4kalyani.github.io
+# lsdco.github.io
 This repo hosts the website www.lsdco.in
